@@ -32,7 +32,7 @@ public class DispararDados {
     public static void main(String[] args) {
         Random dado = new Random();
         float face = dado.nextFloat()*Short.parseShort(args[0]);
-        System.out.println(1+(short)face);
+        System.out.println((byte)1+(short)face);
         System.exit(0);
     }
     
