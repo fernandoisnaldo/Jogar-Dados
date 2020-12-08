@@ -1,5 +1,6 @@
 # Jogar-Dados
-Programas em Java que sorteiam números de 1 até o limite desejado. É como se fosse jogar dados mesmo.
+Programas em Java que sorteiam números de 1 até o limite desejado.
+Pode-se dizer algo como jogar dados em java.
 
 Neste repositório, há 2 programas. Você não precisa dos dois programas para cumprir a proposta, mas você deve escolher aquele que condiz melhor com o ambiente em que será executado.
 
