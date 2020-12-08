@@ -25,7 +25,7 @@ import java.util.Random;
 public class DispararDados {
 
     /**
-     * Defina o número de lados e obtenha 1 face
+     *
      * @param args Insira o número de lados do dado ao invocar o programa por interface de linhas de comando.
      * Exemplo de comando: java DispararDados 6
      */
