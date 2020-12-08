@@ -5,8 +5,7 @@ Pode-se dizer algo como jogar dados em java.
 Neste repositório, há 2 programas. Você não precisa dos dois programas para cumprir a proposta, mas você deve escolher aquele que condiz melhor com o ambiente em que será executado.
 
 Para compilar, você precisa instalar e configurar o <b>Java Development Kit</b>. Após cumprir estes procedimentos, o comando pra compilar é:
-
-javac NomeDoArquivo.java
+<p><b>javac NomeDoArquivo.java</p>
 
 Você também pode utilizar uma IDE como o NetBeans pra facilitar um pouco o processo.
 
