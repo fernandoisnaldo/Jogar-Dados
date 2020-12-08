@@ -5,4 +5,9 @@ Neste repositório, há 2 programas. Você não precisa dos dois programas para 
 
 <b>Dados.java</b> é o programa com interface gráfica swing, feito para ser usado por usuários com conhecimento um pouco menor de informática. 
 
-<b>DispararDados.java</b> é o programa de interface de linhas de comando. Ele requer 1 parâmetro numérico, conforme escrito nos comentários do código-fonte.
+<b>DispararDados.java</b> é o programa de interface de linhas de comando. Ele requer 1 parâmetro numérico, conforme escrito nos comentários do código-fonte. 
+
+Exemplos de comandos para o DisparaDados:
+  <b>java DispararDados 6</b> joga um dado de 6 lados
+  <b>java DispararDados 24</b> joga um dado de 24 lados
+  <b>java DispararDados 120</b> joga um dado de 120 lados
