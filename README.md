@@ -10,7 +10,7 @@ javac NomeDoArquivo.java
 
 Você também pode utilizar uma IDE como o NetBeans pra facilitar um pouco o processo.
 
-<b>Dados.java</b> é o programa com interface gráfica swing, feito para ser usado por pessoas com conhecimento um pouco menor de informática e por conta disso dispensa maiores explicações. 
+<b>Dados.java</b> é o programa com interface gráfica swing, feito para ser usado por pessoas com conhecimento um pouco menor de informática e por conta disso dispensa maiores explicações. Após compilar, é só executar que estará funcionando.
 
 <b>DispararDados</b> é um programa de interface de linhas de comando que requer 1 parâmetro numérico, conforme escrito nos comentários do código-fonte. Sem este parâmetro numérico, o programa não irá funcionar.
 
@@ -18,3 +18,5 @@ Exemplos de comandos para executar o DispararDados corretamente através de linh
 <p><b>java DispararDados 6</b>: joga um dado de 6 lados</p>
 <p><b>java DispararDados 24</b>: joga um dado de 24 lados</p>
 <p><b>java DispararDados 120</b>: joga um dado de 120 lados</p>
+
+Lembrando que pra este comando funcionar, você precisa estar com o interpretador de comandos no mesmo diretório de DispararDados.class.
