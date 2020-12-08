@@ -20,8 +20,7 @@ import javax.swing.JOptionPane;
  */
 
 /**
- * Jogue os dados
- * Defina número de lados e obtenha 1 face.
+ * 
  * @author Fernando Isnaldo Silva de Faria
  */
 public class Dados {
