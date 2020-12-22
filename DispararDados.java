@@ -24,16 +24,23 @@ import java.util.Random;
  */
 public class DispararDados {
 
-    /**
-     *
-     * @param args Insira o número de lados do dado ao invocar o programa por interface de linhas de comando.
-     * Exemplo de comando: java DispararDados 6
-     */
-    public static void main(String[] args) {
-        Random dado = new Random();
-        float face = dado.nextFloat()*Short.parseShort(args[0]);
-        System.out.println((short)face+(byte)1);
-        System.exit(0);
-    }
-    
+	/**
+	 *
+	 * @param args número; 
+	 */
+	public static void main(String[] args) {
+		Random dado = new Random();
+		try{
+			float face = dado.nextFloat()*Short.parseShort(args[0]);
+			System.out.println((short)face+(byte)1);
+		}
+		catch (Exception e){
+			float face = dado.nextFloat()*6;
+			System.out.println((short)face+(byte)1);
+			System.out.println("\nDica: Utilize parâmetros numéricos para dados com diferentes números de lados.");
+			System.out.println("\nExemplo: \"java DispararDados 12\", para jogar um dado de 12 lados");
+		}
+		System.exit(0);
+	}
+	
 }
