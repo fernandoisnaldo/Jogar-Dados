@@ -37,7 +37,7 @@ public class DispararDados {
 		catch (Exception e){
 			float face = dado.nextFloat()*6;
 			System.out.println((short)face+(byte)1);
-			System.out.println("\nDica: Utilize parâmetros numéricos para dados com diferentes números de lados.");
+			System.out.println("\nDica: Utilize parâmetros numéricos, para dados com diferentes números de lados.");
 			System.out.println("\nExemplo: \"java DispararDados 12\", para jogar um dado de 12 lados");
 		}
 		System.exit(0);
