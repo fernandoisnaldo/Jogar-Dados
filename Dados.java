@@ -20,7 +20,8 @@ import javax.swing.JOptionPane;
  */
 
 /**
- * 
+ * Jogue os dados
+ * Defina número de lados e obtenha 1 face.
  * @author Fernando Isnaldo Silva de Faria
  */
 public class Dados {
@@ -30,9 +31,14 @@ public class Dados {
      */
     public static void main(String[] args) {
         Random dado = new Random();
-        String limite=JOptionPane.showInputDialog("Quantos lados o dado deve ter?");
-        float face = dado.nextFloat()*Short.parseShort(limite);
-        JOptionPane.showMessageDialog(null, 1+(short)face);
+        try{
+            String limite=JOptionPane.showInputDialog("Quantos lados o dado deve ter?");
+            float face = dado.nextFloat()*Short.parseShort(limite);
+            JOptionPane.showMessageDialog(null, 1+(short)face);
+        }
+        catch (Exception e){
+            JOptionPane.showMessageDialog(null, "Valor inválido");
+        }
         System.exit(0);
     }
 }
